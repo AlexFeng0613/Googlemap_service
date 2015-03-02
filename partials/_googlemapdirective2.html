@@ -1,0 +1,29 @@
+<style>
+    google-map,[google-map]{
+        display:block;
+        height:50vh;
+        width:50vw;
+        margin:10vh auto;
+        background-color:#aaa;
+        /*position:relative;*/
+    }
+    google-map > div{
+        height:100%;
+        width:100%;
+    }
+    google-map > button{
+        position:absolute;
+        right:5px;
+        top:5px;
+        z-index: 2000;
+        background-color: rgba(0,0,0,0.5);
+        color:white;
+    }
+</style>
+<button>Show Directions</button>
+<div>
+    <!--this element will be provided for google-map-->
+</div>
+<div id="directions_panel">
+
+</div>
